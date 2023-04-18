@@ -26,7 +26,7 @@
     {
       "id": 5,
       "title": "724events, débogage du site React",
-      "cover": "http://localhost:3002/images/product-school-dJICd7b_LlE-unsplash.png",
+      "cover": "./logo724.png",
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site "
     },
     {

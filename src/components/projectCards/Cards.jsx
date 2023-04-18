@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import image from '../../assets/images/image1.jpg';
-// import './Cards.scss';
 
 const Cards = () => {
   const [cardsData, setCardsData] = useState([]);
