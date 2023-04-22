@@ -1,0 +1,97 @@
+.formulaire{
+    color: white;
+    &__banner{
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 5px;
+        width: fit-content;
+        width: 35%;
+        background-color: rgba(255, 123, 0, 0.774);
+        // padding: 8px 20px 8px 60%;
+        transform: skew(-25deg);
+        border-top: solid 3px white;
+        padding: 10px 25px 5px 0;
+        margin: 80px 0 0 -25px;
+        box-shadow: 0 4px 15px rgba(158, 65, 65, 0.9);
+        
+        h2{
+            white-space: nowrap;
+        }
+    }
+}
+.form {
+    resize: none;
+    margin: 150px 0 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    &__row {
+        padding: 15px;
+        background-color: #423f4ba8;
+        //   background-color: #ccc;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    
+    &__element {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &__element--half-width {
+        flex: 1 0 calc(50% - 0.5rem);
+    }
+  
+    &__field {
+        margin-bottom: 1rem;
+    }
+    
+    &__label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    
+    &__input,
+    &__textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0.5rem;
+      width: 100%;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+  
+    &__textarea {
+       height: 270px;
+      resize: none;
+    }
+  
+    &__error {
+      color: red;
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
+    }
+  
+    &__submit {
+    // display: flex;
+    // justify-content: flex-end;
+    border-radius: 10px;
+    width: 100%; 
+    margin: 5px;
+      background-color: #88b0e4;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0069d9;
+      }
+    }
+  }
