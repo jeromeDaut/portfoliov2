@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import image from '../../assets/images/image1.jpg';
-
+import Button  from 'react-bootstrap/Button';
+import ModalP from '../modal/ModalP';
+// import { NavLink } from 'react-router-dom';
+// import 'boxicons'
 const Cards = () => {
   const [cardsData, setCardsData] = useState([]);
-  const [showCards, setShowCards] = useState(false);
+  const [modalShow, setModalShow] = React.useState(false);
+  const [selectedCard, setSelectedCard] = useState(null);
+  // const [showCards, setShowCards] = useState(false);
   
 
   useEffect(() => {
@@ -13,26 +17,40 @@ const Cards = () => {
       .catch(error => console.error(error));
   }, []);
 
-  const handleClick = () => {
-    setShowCards(!showCards);
-  };
+  const handleCardClick = (card) => {
+    setSelectedCard(card); // Stocker l'objet de carte sélectionné dans l'état selectedCard
+    setModalShow(true);
+  }
 
   return (
     <section className='project'>
-      <h2 className='project__title'>Mes projets</h2>
+      <div className='project__banner'>
+        <h2 className='project__title' id='project'>Projets</h2>
+      </div>
       <div className='container'>
-        <div className={`container__image ${showCards ? 'shifted' : ''}`} onClick={handleClick}>
-          <img src={image} alt='' />
-        </div>
-        {showCards && (
+        {/* <div className={`container__image ${showCards ? 'shifted' : ''}`} onClick={handleClick}> */}
+          {/* <img src={image} alt='' /> */}
+        {/* </div> */}
+        {/* {showCards && ( */}
           <div className='container__project'>
             {cardsData.map(card => (
-              <div className='card' key={card.id}>
+              <Button onClick={() => handleCardClick(card)} className='card' key={card.id}>
                 <img className='card__image' src={card.cover} alt='' />
-              </div>
+                {/* {card.showLogo &&(
+                  <div className='logo'>
+                 <NavLink to={card.linkGithub} className='linkGithub'><box-icon color='#fff' name='link' ></box-icon></NavLink>
+                 <NavLink to={card.linkPages} className='linkPages'><box-icon color='#fff'type='logo' name='github' className=''></box-icon></NavLink>
+                 </div>
+                 )} */}
+              </Button>
             ))}
+            <ModalP
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        card= {selectedCard}
+      />
           </div>
-        )}
+        
       </div>
     </section>
   );
