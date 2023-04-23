@@ -6,8 +6,10 @@
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
       "linkGithub":"https://github.com/jeromeDaut/P3-Booki-OP",
       "linkPages":"https://jeromedaut.github.io/P3-Booki-OP/",
+      "techno": " HTML CSS",
       "showLogo": true
     },
+  
     {
       "id": 2,
       "title": "Ohmyfood",
@@ -15,6 +17,7 @@
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animation ",
       "linkGithub":"https://github.com/jeromeDaut/Ohmyfood-p4",
       "linkPages":"https://jeromedaut.github.io/Ohmyfood-p4/",
+      "techno":" HTML SASS",
       "showLogo": true
     },
     {
@@ -23,6 +26,7 @@
       "cover": "https://github.com/OpenClassrooms-Student-Center/Portfolio-architecte-sophie-bluel/blob/master/FrontEnd/assets/images/sophie-bluel.png?raw=true",
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
       "linkGithub":"https://github.com/jeromeDaut/P6-page-web-dynamique-avec-JavaScript",
+      "techno":"HTML SASS JavaScript",
       "showLogo": true
 
     },
@@ -32,15 +36,17 @@
       "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
       "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
       "linkGithub":"https://github.com/jeromeDaut/Kasa-location-appartements",
+      "techno":"HTML SASS REACT",
       "showLogo": true
 
     },
     {
       "id": 5,
-      "title": "724events, débogage du site React",
+      "title": "724events, débogage d'un site React",
       "cover": "./logo724.png",
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
       "linkGithub":"https://github.com/jeromeDaut/Debugger-une-appli-React",
+      "techno":"JEST Testing-library REACT",
       "showLogo": true
 
     },
@@ -49,6 +55,7 @@
       "title": "Menu Maker by Qwenta",
       "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
+      "techno":"PADLET TRELLO POWERPOINT AGILE",
       "showLogo": false
     
     },
@@ -59,6 +66,7 @@
       "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement",
       "linkGithub":"https://github.com/jeromeDaut/Photographie-Carducci",
       "linkPages":"https://jeromedaut.github.io/Photographie-Carducci/",
+      "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
       "showLogo": true
     },
     {
@@ -68,6 +76,7 @@
       "paragraph": "En cours",
       "linkGithub":"",
       "linkPages":"",
+      "techno":"En cours",
       "showLogo": true
       
     }
