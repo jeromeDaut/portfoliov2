@@ -11,48 +11,63 @@
   }
   
 .project {
-  background-color: #423f4ba8;
+  background-color: $color-background;
 
     padding: 30px;
     object-fit: contain;
-    &__banner {
-        display: flex;
-        justify-content: flex-end;
-        border-radius: 5px;
-        color: white;
-        width: 36%;
-        background-color: rgba(255, 123, 0, 0.774);
-        padding: 5px 10px;
-        transform: skew(-25deg);
-        border-top: solid 3px white;
-        padding: 10px 25px 5px 0;
-        margin: 80px 0 80px -49px;
-        box-shadow: 0 4px 15px rgba(99, 41, 41, 0.9);
-    }
+    
       }
       
       .container__project {
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
+        justify-content: center;
       }
-    .card {
-      position: relative;
-      border: #f7f7f7 5px solid;
-      display: flex;
-      flex-wrap: wrap;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
-      border-radius: 10px;
-      width: calc(50% - 2rem);
-      padding: 0;
-      cursor: pointer;
-      &:hover{
-        border: #88b0e4 5px solid;
-        box-shadow: 0 6px 17px rgba(0, 0, 0, 1);
-        background-color: #88b0e4;
+      .btn.show{
+        
+        &:target{
+          background: $color-icons;
+  
+        }
       }
-      &__image {
-        width: 100%;
+      .btn-primary{
+        --bs-btn-color: none;
+        background-color: $color-icons;
+        color: $color-font;
+        &:hover {
+          background: $color-icons;
+        }
+      }
+      .card {
+        position: relative;
+        border: #f7f7f7 5px solid;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+        border-radius: 10px;
+        width: calc(50% - 2rem);
+        padding: 0;
+        transition: 400ms;
+        cursor: pointer;
+        transition: transform 400ms;
+        h3{
+          margin: 0 auto;
+          word-spacing: 1.5rem;
+          font-size: 1.5rem;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+        }
+        
+        &:hover{
+          border: $color-icons 5px solid;
+          box-shadow: 0 6px 17px rgba(0, 0, 0, 1);
+          background-color: $color-icons;
+          transform: scale(1.05)
+          
+        }
+        &__image {
+          width: 100%;
         height: 220px;
         max-height: 220px;
         object-fit: cover;
