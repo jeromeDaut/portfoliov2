@@ -1,16 +1,21 @@
 .contactR{
-    background-color: #423f4ba8;
-padding: 80px;
+    background-color: $color-background;
+    padding: 80px;
     display: flex;
     justify-content: center;
     gap: 50px;
+    
     a{
-        color: white;
+        transition: transform 0.4s ease;
+        color: $color-font;
         padding: 5px;
         border-radius: 50%;
         border: 1px solid;
         &:hover{
-            color: rgba(255, 123, 0, 0.774);
+            color: $color-title;
+            transform: scale(1.2);
+            // transition-delay: 0.3s;
+
         }
     }
     i{
