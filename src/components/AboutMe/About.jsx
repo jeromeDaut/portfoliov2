@@ -8,8 +8,8 @@ const About = () => {
                 <img src={portrait} alt="" />
             </div>
             <div className="about-me__content">
-                <h2 className="about-me__title">Jérôme Dautrême</h2>
-                <h3 className="about-me__subtitle">Développeur Front-end</h3>
+                <h1 className="about-me__title">Jérôme Dautrême</h1>
+                <h2 className="about-me__subtitle">Développeur Front-end</h2>
             </div>
         </section>
     );
