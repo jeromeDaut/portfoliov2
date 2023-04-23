@@ -1,9 +1,10 @@
-
+@import './assets/Scss/color';
+@import './assets/Scss/global.scss';
 @import './components/navigation/navigation.scss';
 @import './components/projectCards/cards.scss';
-@import './assets/Scss/global.scss';
 @import './components/AboutMe/about.scss';
 @import './components/modal/modal.scss';
 @import './components/skills/skills.scss';
 @import './components/Form/form.scss';
 @import './components/footer/footer.scss';
+@import './components/sectionTitle/sectionTitle.scss';
