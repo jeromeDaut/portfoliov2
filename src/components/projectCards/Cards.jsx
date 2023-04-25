@@ -30,9 +30,9 @@ const Cards = () => {
         
           <div className='container__project'>
             {cardsData.map(card => (
-              <Button onClick={() => handleCardClick(card)} className='card btn-primary' key={card.id}>
+              <Button onClick={() => handleCardClick(card)} className='card btn btn-primary' id='btn' key={card.id}>
                 <img className='card__image' src={card.cover} alt='' />
-                <h3>{card.techno}</h3>
+                <h3 className='card__title'>{card.techno}</h3>
               </Button>
             ))}
             
