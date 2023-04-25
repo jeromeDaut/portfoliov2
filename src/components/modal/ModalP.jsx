@@ -1,5 +1,4 @@
 import React from 'react';
-// import Button from '../projectCards/Cards';
 import  Modal  from 'react-bootstrap/Modal';
 // import {cardsData} from '../projectCards/Cards'
 
@@ -18,10 +17,21 @@ const ModalP = (props) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>{card?.paragraph}</p>
+        <div className='ImgModal'>
+          <img src={card?.cover} alt={card?.title} />
+        </div>
+        <div className="containerModal">
+          <div className='containerModal__target'>
+            <h3>Objectif</h3>
+            <p className='containerModal__target--paragraph'>{card?.paragraph}</p>
+          </div>
+          <div className='containerModal__skills'>
+            <h3>Compétences</h3>
+            <p className='containerModal__skills--techno'>{card?.techno}</p>
+          </div>
+        </div>
       </Modal.Body>
       <Modal.Footer>
-        {/* <Button onClick={props.onHide}>Close</Button> */}
       </Modal.Footer>
     </Modal>
   );
