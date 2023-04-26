@@ -4,9 +4,15 @@
       "title": "Booki",
       "cover": "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
-      "linkGithub":"https://github.com/jeromeDaut/P3-Booki-OP",
-      "linkPages":"https://jeromedaut.github.io/P3-Booki-OP/",
+      "links":{
+        "github":"https://github.com/jeromeDaut/P3-Booki-OP",
+        "Pages":"https://jeromedaut.github.io/P3-Booki-OP/"
+      },
       "techno": " HTML CSS",
+      "logo":{
+        "html": "./images/HTML.png",
+        "css": "./images/CSS3.png"
+      },
       "showLogo": true
     },
   
@@ -18,6 +24,11 @@
       "linkGithub":"https://github.com/jeromeDaut/Ohmyfood-p4",
       "linkPages":"https://jeromedaut.github.io/Ohmyfood-p4/",
       "techno":" HTML SASS",
+      "logo":{
+        "html": "./images/HTML.png",
+        "sass": "./images/Sass.png",
+        "figma": "./images/Figma.png"
+      },
       "showLogo": true
     },
     {
@@ -27,6 +38,12 @@
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
       "linkGithub":"https://github.com/jeromeDaut/P6-page-web-dynamique-avec-JavaScript",
       "techno":"HTML SASS JavaScript",
+      "logo":{
+        "html": "./images/HTML.png",
+        "sass": "./images/Sass.png",
+        "figma": "./images/Figma.png",
+        "javaScript": "./images/JavaScript.png"
+      },
       "showLogo": true
 
     },
@@ -37,6 +54,13 @@
       "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
       "linkGithub":"https://github.com/jeromeDaut/Kasa-location-appartements",
       "techno":"HTML SASS REACT",
+      "logo":{
+        "html": "./images/HTML.png",
+        "sass": "./images/Sass.png",
+        "figma": "./images/Figma.png",
+        "react": "./images/React.png",
+        "react-router": "./images/react-router.png"
+      },
       "showLogo": true
 
     },
@@ -47,6 +71,11 @@
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
       "linkGithub":"https://github.com/jeromeDaut/Debugger-une-appli-React",
       "techno":"JEST Testing-library REACT",
+      "logo":{
+        "react": "./images/React.png",
+        "testing-library":"./images/testing.png", 
+        "jest":"./images/Jest.png" 
+      },
       "showLogo": true
 
     },
@@ -56,6 +85,12 @@
       "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
       "techno":"PADLET TRELLO POWERPOINT AGILE",
+      "logo":{
+        "padlet": "./images/PadletLogo.png",
+        "trello":"./images/Trello.png", 
+        "powerpoint":"./images/PowerPoint.png", 
+        "scrum":"./images//scrum-project.png" 
+      },
       "showLogo": false
     
     },
@@ -63,10 +98,17 @@
       "id": 7,
       "title": "Photographie Carducci",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
-      "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement",
+      "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
       "linkGithub":"https://github.com/jeromeDaut/Photographie-Carducci",
       "linkPages":"https://jeromedaut.github.io/Photographie-Carducci/",
       "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
+      "logo":{
+        "html":"./images/HTML.png",
+        "lighthouse": "./images/Lighthouse.png",
+        "schema":"./images/Schema.org.png", 
+        "wave":"./images/wavelogo.svg",
+        "squoosh":"./images/squoosh.svg"
+      },
       "showLogo": true
     },
     {
