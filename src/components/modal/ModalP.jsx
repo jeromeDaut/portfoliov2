@@ -4,8 +4,8 @@ import  Modal  from 'react-bootstrap/Modal';
 
 const ModalP = (props) => {
   const {card} = props;
-    return (
-        <Modal
+  return (
+    <Modal
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
@@ -13,7 +13,7 @@ const ModalP = (props) => {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-        {card ? card.title : ''}
+        <h2>{card ? card.title : ''}</h2>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -21,17 +21,42 @@ const ModalP = (props) => {
           <img src={card?.cover} alt={card?.title} />
         </div>
         <div className="containerModal">
-          <div className='containerModal__target'>
+          <div className='containerModal__target containerModal__target--title'>
             <h3>Objectif</h3>
             <p className='containerModal__target--paragraph'>{card?.paragraph}</p>
           </div>
           <div className='containerModal__skills'>
-            <h3>Compétences</h3>
-            <p className='containerModal__skills--techno'>{card?.techno}</p>
+            <h3>Compétences / Outils</h3>
+            <div>
+
+            {card?.logo && 
+            Object.keys(card.logo).map((key)=> (
+            <img 
+            className='containerModal__skills--logo' 
+            src={card?.logo[key]} 
+            key={key} 
+            alt={`Logo ${key}`} />
+            ))}
+            </div>
           </div>
         </div>
       </Modal.Body>
       <Modal.Footer>
+              <div>
+                <div>
+                  <h3>Liens vers ressources externe</h3>
+                </div>
+                <div>{card?.li && 
+            Object.keys(card.logo).map((key)=> (
+            <img 
+            className='containerModal__skills--logo' 
+            src={card?.logo[key]} 
+            key={key} 
+            alt={`Logo ${key}`} />
+            ))}
+
+                </div>
+              </div>
       </Modal.Footer>
     </Modal>
   );

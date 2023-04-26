@@ -1,36 +1,63 @@
+.modal-backdrop.show{
+    overflow-y: scroll;
+
+}
 .modal-content{
-    background-color: #423f4b;
+    background-color: #302d39;
     color: $color-font;
+    border: 3px solid $color-font;
 }
 .modal-title{
     margin-left: auto;
 }
 .ImgModal{
     img{
+        border: 3px solid $color-font;
         object-fit: cover;
         width: 100%;
         height: 250px;
         border-radius: 15px;
+        box-shadow: 2px 5px 10px rgba(18, 17, 17, 0.555);
+
     }
 }
 .containerModal{
     display: flex;
     h3{
-        border: 1px solid red;
         text-align: center;
     }
     &__target,
     &__skills{
         margin-top: 15px;
-        border: 1px solid red;
         width: 50%;
         padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        &--title{
+            border-right: 1px solid $color-font;
+        }
         &--paragraph{
+            padding: 10px;
             text-align: justify;
         }
         &--techno{
             text-align: center;
             word-spacing: 1.5rem;
+        }
+        &--logo{
+            margin: 10px;
+            padding: 5px;
+            background: linear-gradient(to top right,rgb(58, 57, 57) , lighten( $color: rgb(123, 128, 136), $amount: 25));
+            box-shadow: 2px 5px 10px rgba(18, 17, 17, 0.555);
+            border-radius: 20px;
+            // background: rgb(168, 189, 206);
+            object-fit: contain;
+            // align-self: center;
+            width: 100px;
+            height: 60px;
+            color: aliceblue;
         }
     }
 
