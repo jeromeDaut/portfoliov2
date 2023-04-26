@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Button  from 'react-bootstrap/Button';
 import ModalP from '../modal/ModalP';
 import SectionTitle from '../sectionTitle/SectionTitle';
+import { Figure } from 'react-bootstrap';
 // import { NavLink } from 'react-router-dom';
 // import 'boxicons'
 const Cards = () => {
@@ -28,12 +28,14 @@ const Cards = () => {
       <SectionTitle id="project" />
       <div className='container'>
         
-          <div className='container__project'>
+          <article className='container__project'>
             {cardsData.map(card => (
-              <Button onClick={() => handleCardClick(card)} className='card btn btn-primary' id='btn' key={card.id}>
+              <Figure onClick={() => handleCardClick(card)} className='card btn btn-primary' id='btn' key={card.id}>
                 <img className='card__image' src={card.cover} alt='' />
+                <figcaption>
                 <h3 className='card__title'>{card.techno}</h3>
-              </Button>
+                </figcaption>
+              </Figure>
             ))}
             
             <ModalP
@@ -41,7 +43,7 @@ const Cards = () => {
               onHide={() => setModalShow(false)}
               card= {selectedCard}
             />
-          </div>
+          </article>
         
       </div>
     </section>
