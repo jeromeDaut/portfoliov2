@@ -21,16 +21,19 @@
     &__item {
         display: flex;
         border-radius: 10px;
-        width: fit-content;
+        width: 100px;
         padding: 5px 10px;
-        height: fit-content;
+        height: auto;
         background: linear-gradient(to top right,$color-icons ,$color-icons, lighten( $color: $color-icons, $amount: 25));
-        border: solid 1px black;
+        border: solid 1px rgb(180, 178, 178);
         margin-bottom: 80px;
         box-shadow: 2px 5px 10px rgba(87, 61, 61, 0.555);
         transform: translateX(500%);
     animation: slide-back 800ms ease-in-out forwards;
         cursor: pointer;
+        i{
+          margin: 0 auto;
+        }
     }
 }
 
