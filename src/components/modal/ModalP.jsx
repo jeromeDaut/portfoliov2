@@ -1,5 +1,6 @@
 import React from 'react';
 import  Modal  from 'react-bootstrap/Modal';
+import { Link } from 'react-router-dom';
 // import {cardsData} from '../projectCards/Cards'
 
 const ModalP = (props) => {
@@ -22,41 +23,79 @@ const ModalP = (props) => {
         </div>
         <div className="containerModal">
           <div className='containerModal__target containerModal__target--title'>
-            <h3>Objectif</h3>
+            <h3>Objectif :</h3>
             <p className='containerModal__target--paragraph'>{card?.paragraph}</p>
           </div>
           <div className='containerModal__skills'>
-            <h3>Compétences / Outils</h3>
+            <h3>Compétences / Outils :</h3>
             <div>
-
-            {card?.logo && 
-            Object.keys(card.logo).map((key)=> (
-            <img 
-            className='containerModal__skills--logo' 
-            src={card?.logo[key]} 
-            key={key} 
-            alt={`Logo ${key}`} />
-            ))}
+              {card?.logo && 
+              Object.keys(card.logo).map((key)=> (
+              <img 
+              className='containerModal__skills--logo' 
+              src={card?.logo[key]} 
+              key={key} 
+              alt={`Logo ${key}`} />
+              ))}
             </div>
           </div>
         </div>
       </Modal.Body>
       <Modal.Footer>
-              <div>
-                <div>
-                  <h3>Liens vers ressources externe</h3>
-                </div>
-                <div>{card?.li && 
-            Object.keys(card.logo).map((key)=> (
-            <img 
-            className='containerModal__skills--logo' 
-            src={card?.logo[key]} 
-            key={key} 
-            alt={`Logo ${key}`} />
-            ))}
+  
+    <div>
+      <h3>Liens vers ressources externes :</h3>
+      <div className='containerModal__links'>
+            {card?.links && (
+              <>
+                {card.links.github && (
+                  <div>
+                    <Link to={card.links.github} target="_blank" rel="noopener noreferrer">
+                      <h4>Github</h4>
+                      <img className='containerModal__links--logo' src={card.links.logoGithub} alt='GitHub' />
+                    </Link>
+                  </div>
+                )}
 
-                </div>
-              </div>
+                {card.links.pages && (
+                  <div>
+                    <Link to={card.links.pages} target="_blank" rel="noopener noreferrer">
+                      <h4>Github Pages</h4>
+                      <img className='containerModal__links--logo' src={card.links.logoPages} alt='Pages' />
+                    </Link>
+                  </div>
+                )}
+
+                {card.links.trello && (
+                  <div>
+                    <Link to={card.links.trello} target="_blank" rel="noopener noreferrer">
+                      <h4>Trello</h4>
+                      <img className='containerModal__links--logo' src={card.links.logoTrello} alt='Pages' />
+                    </Link>
+                  </div>
+                )}
+
+                {card.links.padlet && (
+                  <div>
+                    <Link to={card.links.padlet} target="_blank" rel="noopener noreferrer">
+                      <h4>Padlet</h4>
+                      <img className='containerModal__links--logo' src={card.links.logoPadlet} alt='Pages' />
+                    </Link>
+                  </div>
+                )}
+
+                {card.links.oneDrive && (
+                  <div>
+                    <Link to={card.links.oneDrive} target="_blank" rel="noopener noreferrer">
+                      <h4>OneDrive</h4>
+                      <img className='containerModal__links--logo' src={card.links.logoOneDrive} alt='Pages' />
+                    </Link>
+                  </div>
+                )}
+              </>
+            )}
+      </div>
+    </div>
       </Modal.Footer>
     </Modal>
   );
