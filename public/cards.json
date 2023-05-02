@@ -6,7 +6,9 @@
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
       "links":{
         "github":"https://github.com/jeromeDaut/P3-Booki-OP",
-        "Pages":"https://jeromedaut.github.io/P3-Booki-OP/"
+        "logoGithub":"./images/Github.png",
+        "pages":"https://jeromedaut.github.io/P3-Booki-OP/",
+        "logoPages":"./images/link.png"
       },
       "techno": " HTML CSS",
       "logo":{
@@ -21,9 +23,13 @@
       "title": "Ohmyfood",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559011566667_FR_1117_P4_Banner-Ohmyfood.png",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animation ",
-      "linkGithub":"https://github.com/jeromeDaut/Ohmyfood-p4",
-      "linkPages":"https://jeromedaut.github.io/Ohmyfood-p4/",
       "techno":" HTML SASS",
+      "links":{
+        "github":"https://github.com/jeromeDaut/Ohmyfood-p4",
+        "logoGithub":"./images/Github.png",
+        "pages":"https://jeromedaut.github.io/Ohmyfood-p4/",
+        "logoPages":"./images/link.png"
+      },
       "logo":{
         "html": "./images/HTML.png",
         "sass": "./images/Sass.png",
@@ -36,8 +42,11 @@
       "title": "Sophie Bluel, Architecte",
       "cover": "https://github.com/OpenClassrooms-Student-Center/Portfolio-architecte-sophie-bluel/blob/master/FrontEnd/assets/images/sophie-bluel.png?raw=true",
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
-      "linkGithub":"https://github.com/jeromeDaut/P6-page-web-dynamique-avec-JavaScript",
       "techno":"HTML SASS JavaScript",
+      "links":{
+        "github":"https://github.com/jeromeDaut/P6-page-web-dynamique-avec-JavaScript",
+        "logoGithub":"./images/Github.png"
+      },
       "logo":{
         "html": "./images/HTML.png",
         "sass": "./images/Sass.png",
@@ -52,8 +61,11 @@
       "title": "Kasa, location immobilière avec React",
       "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
       "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
-      "linkGithub":"https://github.com/jeromeDaut/Kasa-location-appartements",
       "techno":"HTML SASS REACT",
+      "links":{
+        "github":"https://github.com/jeromeDaut/Kasa-location-appartements",
+        "logoGithub":"./images/Github.png"
+      },
       "logo":{
         "html": "./images/HTML.png",
         "sass": "./images/Sass.png",
@@ -69,7 +81,10 @@
       "title": "724events, débogage d'un site React",
       "cover": "./logo724.png",
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
-      "linkGithub":"https://github.com/jeromeDaut/Debugger-une-appli-React",
+      "links":{
+        "github":"https://github.com/jeromeDaut/Debugger-une-appli-React",
+        "logoGithub":"./images/Github.png"
+      },
       "techno":"JEST Testing-library REACT",
       "logo":{
         "react": "./images/React.png",
@@ -85,9 +100,17 @@
       "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
       "techno":"PADLET TRELLO POWERPOINT AGILE",
+      "links":{
+        "trello":"https://trello.com/b/0aYZA7XC/mod%C3%A8le-kanban-pour-qwenta",
+        "logoTrello":"./images/trellologo.webp",
+        "padlet":"https://padlet.com/jeromedautreme/veille-projet-menumaker-by-qwenta-gn61t2n42fat23hx",
+        "logoPadlet":"./images/PadletLogo.png",
+        "oneDrive":"https://1drv.ms/f/s!Am18ToY95PU1gY5cVd0nXtKxtt--Jg?e=i2kGbm",
+        "logoOneDrive":"./images/onedrive.png"
+      },
       "logo":{
         "padlet": "./images/PadletLogo.png",
-        "trello":"./images/Trello.png", 
+        "trello":"./images/trellologo.webp", 
         "powerpoint":"./images/PowerPoint.png", 
         "scrum":"./images//scrum-project.png" 
       },
@@ -99,9 +122,13 @@
       "title": "Photographie Carducci",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
       "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
-      "linkGithub":"https://github.com/jeromeDaut/Photographie-Carducci",
-      "linkPages":"https://jeromedaut.github.io/Photographie-Carducci/",
       "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
+      "links":{
+        "github":"https://github.com/jeromeDaut/Photographie-Carducci",
+        "logoGithub":"./images/Github.png",
+        "pages":"https://jeromedaut.github.io/Photographie-Carducci/",
+        "logoPages":"./images/link.png"
+      },
       "logo":{
         "html":"./images/HTML.png",
         "lighthouse": "./images/Lighthouse.png",
