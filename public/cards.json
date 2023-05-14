@@ -39,7 +39,7 @@
     },
     {
       "id": 3,
-      "title": "Sophie Bluel, Architecte",
+      "title": "Sophie Bluel, site en Javascript",
       "cover": "https://github.com/OpenClassrooms-Student-Center/Portfolio-architecte-sophie-bluel/blob/master/FrontEnd/assets/images/sophie-bluel.png?raw=true",
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
       "techno":"HTML SASS JavaScript",
@@ -96,7 +96,7 @@
     },
     {
       "id": 6,
-      "title": "Menu Maker by Qwenta",
+      "title": "Menu Maker by Qwenta, Projet Agile",
       "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
       "techno":"PADLET TRELLO POWERPOINT AGILE",
@@ -119,7 +119,7 @@
     },
     {
       "id": 7,
-      "title": "Photographie Carducci",
+      "title": "Photographie Carducci, SEO",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
       "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
       "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
@@ -140,12 +140,21 @@
     },
     {
       "id": 8,
-      "title": "ArgentBank, application React",
+      "title": "ArgentBank, Application React",
       "cover": "https://user.oc-static.com/upload/2023/04/17/1681723159368_Capture%20d%E2%80%99e%CC%81cran%202023-04-17%20a%CC%80%2011.19.09.png",
-      "paragraph": "En cours",
+      "paragraph": "A partir d'un design fait en HTML et CSS et d'un backend express/mongoDB, réalisation d'une application bancaire en React en utilisant Redux-Toolkit",
       "linkGithub":"",
       "linkPages":"",
-      "techno":"En cours",
+      "techno":"REACT REDUX-TOOLKIT AXIOS",
+      "links":{
+        "github":"https://github.com/jeromeDaut/ArgentBank-website",
+        "logoGithub":"./images/Github.png"
+      },
+      "logo":{
+        "react": "./images/React.png",
+        "redux-toolkit": "./images/Redux.png"
+      },
+      
       "showLogo": true
       
     }
