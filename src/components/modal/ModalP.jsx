@@ -52,7 +52,7 @@ const ModalP = (props) => {
                   <div>
                     <Link to={card.links.github} target="_blank" rel="noopener noreferrer">
                       <h4>Github</h4>
-                      <img className='containerModal__links--logo' src={card.links.logoGithub} alt='GitHub' />
+                      <img className='containerModal__links--logo' title='Github' src={card.links.logoGithub} alt='GitHub' />
                     </Link>
                   </div>
                 )}
@@ -61,7 +61,7 @@ const ModalP = (props) => {
                   <div>
                     <Link to={card.links.pages} target="_blank" rel="noopener noreferrer">
                       <h4>Github Pages</h4>
-                      <img className='containerModal__links--logo' src={card.links.logoPages} alt='Pages' />
+                      <img className='containerModal__links--logo' title='Github Pages' src={card.links.logoPages} alt='Pages' />
                     </Link>
                   </div>
                 )}
@@ -70,7 +70,7 @@ const ModalP = (props) => {
                   <div>
                     <Link to={card.links.trello} target="_blank" rel="noopener noreferrer">
                       <h4>Trello</h4>
-                      <img className='containerModal__links--logo' src={card.links.logoTrello} alt='Pages' />
+                      <img className='containerModal__links--logo' title='Trello' src={card.links.logoTrello} alt='Pages' />
                     </Link>
                   </div>
                 )}
@@ -79,7 +79,7 @@ const ModalP = (props) => {
                   <div>
                     <Link to={card.links.padlet} target="_blank" rel="noopener noreferrer">
                       <h4>Padlet</h4>
-                      <img className='containerModal__links--logo' src={card.links.logoPadlet} alt='Pages' />
+                      <img className='containerModal__links--logo' title='Padlet' src={card.links.logoPadlet} alt='Pages' />
                     </Link>
                   </div>
                 )}
@@ -88,7 +88,7 @@ const ModalP = (props) => {
                   <div>
                     <Link to={card.links.oneDrive} target="_blank" rel="noopener noreferrer">
                       <h4>OneDrive</h4>
-                      <img className='containerModal__links--logo' src={card.links.logoOneDrive} alt='Pages' />
+                      <img className='containerModal__links--logo' title='OneDrive' src={card.links.logoOneDrive} alt='Pages' />
                     </Link>
                   </div>
                 )}
