@@ -1,6 +1,7 @@
 import React from 'react';
 import  Modal  from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
+import closeButton from 'react-bootstrap/ModalHeader'
 // import {cardsData} from '../projectCards/Cards'
 
 const ModalP = (props) => {
@@ -12,7 +13,7 @@ const ModalP = (props) => {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header closeButton closeVariant="white">
         <Modal.Title id="contained-modal-title-vcenter">
         <h2>{card ? card.title : ''}</h2>
         </Modal.Title>

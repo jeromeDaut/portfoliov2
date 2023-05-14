@@ -10,8 +10,12 @@ a{
     color: $color-font;
     border: 3px solid $color-font;
 }
+.modal-header > button{
+    opacity: 2;
+    
+}
 .modal-title{
-    background: $color-title;
+    // background: $color-title;
     margin-left: auto;
 }
 .ImgModal{
