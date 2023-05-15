@@ -9,3 +9,10 @@ body{
     overflow-x: hidden;
 // background-color: rgb(167, 165, 164);
 }
+@media screen and (max-width: 930px) {
+    body{
+      display: flex !important;
+      flex-direction: column !important;
+      width: 100%;
+    }
+}  

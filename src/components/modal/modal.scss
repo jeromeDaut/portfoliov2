@@ -11,7 +11,7 @@ a{
     border: 3px solid $color-font;
 }
 .modal-header > button{
-    opacity: 2;
+    opacity: 1;
     
 }
 .modal-title{
@@ -90,7 +90,7 @@ a{
         margin-top: 30px;
         h4{
             font-size: 1.5rem;
-            color: $color-title;
+            color: $color-font;
             text-decoration: underline;
             &:hover, :visited{
                 color: #b7a8e6;
@@ -98,6 +98,34 @@ a{
         }
         &--logo{
             width: 60px;
+        }
+    }
+}
+@media screen and (max-width: 930px) {
+    
+    .containerModal{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        &__target,
+        &__skills{
+            width: 100%;
+            display: flex;
+            padding: 0;
+            &--title{
+                border: 0;
+            }
+            &--logo{
+                box-shadow: 0px 0px 20px rgba(18, 17, 17, 0.8);
+                margin: 25px 2px;
+                background: rgb(182, 173, 173);
+            }
+            &--center{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                text-align: justify;
+            }
         }
     }
 }

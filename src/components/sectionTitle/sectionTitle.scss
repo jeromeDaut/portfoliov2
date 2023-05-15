@@ -31,3 +31,12 @@
         font-weight: bold;
     }
 }
+@media screen and (max-width: 930px) {
+  .banner{
+  width: 100%;
+  justify-content: center;
+  h2{
+    text-align: center;
+  }
+  }
+} 
