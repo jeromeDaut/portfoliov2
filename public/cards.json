@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "Booki",
+      "title": "HTML et CSS",
       "cover": "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
       "links":{
@@ -20,7 +20,7 @@
   
     {
       "id": 2,
-      "title": "Ohmyfood",
+      "title": "SASS et Animations ",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559011566667_FR_1117_P4_Banner-Ohmyfood.png",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animation ",
       "techno":" HTML SASS",
@@ -39,8 +39,8 @@
     },
     {
       "id": 3,
-      "title": "Sophie Bluel, site en Javascript",
-      "cover": "https://github.com/OpenClassrooms-Student-Center/Portfolio-architecte-sophie-bluel/blob/master/FrontEnd/assets/images/sophie-bluel.png?raw=true",
+      "title": "Site Javascript",
+      "cover": "./Sophie.png",
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
       "techno":"HTML SASS JavaScript",
       "links":{
@@ -58,7 +58,7 @@
     },
     {
       "id": 4,
-      "title": "Kasa, location immobilière avec React",
+      "title": "Site React",
       "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
       "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
       "techno":"HTML SASS REACT",
@@ -78,7 +78,7 @@
     },
     {
       "id": 5,
-      "title": "724events, débogage d'un site React",
+      "title": "Débug site React",
       "cover": "./logo724.png",
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
       "links":{
@@ -96,7 +96,7 @@
     },
     {
       "id": 6,
-      "title": "Menu Maker by Qwenta, Projet Agile",
+      "title": "Gestion projet Agile",
       "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
       "techno":"PADLET TRELLO POWERPOINT AGILE",
@@ -119,7 +119,7 @@
     },
     {
       "id": 7,
-      "title": "Photographie Carducci, SEO",
+      "title": "Projet SEO",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
       "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
       "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
@@ -140,7 +140,7 @@
     },
     {
       "id": 8,
-      "title": "ArgentBank, Application React",
+      "title": "Appli React Redux",
       "cover": "https://user.oc-static.com/upload/2023/04/17/1681723159368_Capture%20d%E2%80%99e%CC%81cran%202023-04-17%20a%CC%80%2011.19.09.png",
       "paragraph": "A partir d'un design fait en HTML et CSS et d'un backend express/mongoDB, réalisation d'une application bancaire en React en utilisant Redux-Toolkit",
       "linkGithub":"",
