@@ -1,7 +1,6 @@
 import React from 'react';
 import  Modal  from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
-import closeButton from 'react-bootstrap/ModalHeader'
 // import {cardsData} from '../projectCards/Cards'
 
 const ModalP = (props) => {
@@ -29,7 +28,7 @@ const ModalP = (props) => {
           </div>
           <div className='containerModal__skills'>
             <h3>Compétences / Outils :</h3>
-            <div>
+            <div className='containerModal__skills--center'>
               {card?.logo && 
               Object.keys(card.logo).map((key)=> (
               <img 
