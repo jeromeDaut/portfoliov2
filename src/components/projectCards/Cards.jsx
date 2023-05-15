@@ -30,11 +30,13 @@ const Cards = () => {
         
           <article className='container__project'>
             {cardsData.map(card => (
+              
               <Figure onClick={() => handleCardClick(card)} className='card btn btn-primary' id='btn' key={card.id}>
+                <h3>{card.title}</h3>
                 <img className='card__image' src={card.cover} alt='' />
-                <figcaption>
+                {/* <figcaption>
                 <h3 className='card__title'>{card.techno}</h3>
-                </figcaption>
+                </figcaption> */}
               </Figure>
             ))}
             
