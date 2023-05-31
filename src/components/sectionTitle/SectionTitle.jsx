@@ -4,7 +4,7 @@ const SectionTitle = (props) => {
     const titles =[
         {
             id: "skills",
-            title: "Mes compétences"
+            title: "Technologies"
         },
         {
             id:"project",

@@ -16,14 +16,14 @@
     color: $color-font;
     width: 36%;
     background-color: $color-title;
-    background: linear-gradient(to top right,$color-title ,$color-title, lighten( $color: $color-title, $amount: 25));
+    background: linear-gradient(45deg,#DD4B25 .29%,#E96228 50.14%,#f5bb70);
     padding: 5px 10px;
     transform: skew(-25deg);
-    border-top: solid 3px $color-font;
+    // border-top: solid 3px $color-font;
     padding: 10px 25px 5px 0;
-    margin: 80px 0 80px -49px;
+    margin: 0 0 0 -60px;
     
-    box-shadow: 0 4px 15px rgba(99, 41, 41, 1);
+    // box-shadow: 0 4px 15px rgba(99, 41, 41, 1);
     transform: translateX(-100%);
     animation: slide-in 800ms ease-in-out forwards;
     h2{
