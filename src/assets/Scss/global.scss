@@ -4,12 +4,10 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-#root{
 
-    background: #061423;
-}
 body{
-
+    background: no-repeat  url('../images/test.jpg');
+    background-size: cover;
     // background:  10%  no-repeat url(../../assets/images/6913982.jpg);
     // background-color: #000;
     overflow-x: hidden;
