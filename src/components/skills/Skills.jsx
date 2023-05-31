@@ -19,33 +19,35 @@ const Skills = () => {
     const tools = skillItems.filter(item => item.category === 'outils');
   
     return (
-      <section className='skills'>
+      <>
         <SectionTitle id="skills" />
-        <div className='skills__container'>
-          <div className='skills__category'>
-            <h2>Front-End</h2>
-            <ul>
-              {frontEndSkills.map(item => (
-                <li key={item.id} className='skills__item skills__item--front' title={item.title} style={{ background: item.bg_color }}>
-                  <i className={item.icon}></i>
-                  <p>{item.title}</p>
-                </li>
-              ))}
-            </ul>
+        <section className='skills'>
+          <div className='skills__container'>
+            <div className='skills__category'>
+              <h2>Front-End</h2>
+              <ul>
+                {frontEndSkills.map(item => (
+                  <li key={item.id} className='skills__item skills__item--front' title={item.title} style={{ background: item.bg_color }}>
+                    <i className={item.icon}></i>
+                    <p>{item.title}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className='skills__category'>
+              <h2>Outils</h2>
+              <ul>
+                {tools.map(item => (
+                  <li key={item.id} className='skills__item skills__item--tools' title={item.title} style={{ background: item.bg_color }}>
+                    <i className={item.icon}></i>
+                    <p>{item.title}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className='skills__category'>
-            <h2>Outils</h2>
-            <ul>
-              {tools.map(item => (
-                <li key={item.id} className='skills__item skills__item--tools' title={item.title} style={{ background: item.bg_color }}>
-                  <i className={item.icon}></i>
-                  <p>{item.title}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
+      </>
     );
   };
   
