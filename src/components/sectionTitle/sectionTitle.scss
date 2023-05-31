@@ -19,11 +19,8 @@
     background: linear-gradient(45deg,#DD4B25 .29%,#E96228 50.14%,#f5bb70);
     padding: 5px 10px;
     transform: skew(-25deg);
-    // border-top: solid 3px $color-font;
     padding: 10px 25px 5px 0;
     margin: 0 0 0 -60px;
-    
-    // box-shadow: 0 4px 15px rgba(99, 41, 41, 1);
     transform: translateX(-100%);
     animation: slide-in 800ms ease-in-out forwards;
     h2{
@@ -34,9 +31,8 @@
 @media screen and (max-width: 930px) {
   .banner{
   width: 100%;
-  justify-content: center;
   h2{
-    text-align: center;
+    text-align: end;
   }
   }
 } 

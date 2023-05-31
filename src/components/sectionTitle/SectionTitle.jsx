@@ -3,6 +3,10 @@ import React from 'react';
 const SectionTitle = (props) => {
     const titles =[
         {
+            id: "about",
+            title: "A propos"
+        },
+        {
             id: "skills",
             title: "Technologies"
         },
