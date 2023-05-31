@@ -1,39 +1,44 @@
+
+#about{
+  margin-top: 120px;
+}
 .about-me {
-  position: relative;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  background-color: $color-background;
-  border-bottom: solid black 2px;
   text-align: center;
   height: auto;
-  margin-bottom: 25px;
+  margin: 50px;
+  padding-top: 100px;
+  box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 13px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 20px;
+
   &__container {
-    display: inline;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     transition-duration: 600ms ;
     
-    &.expanded {
-      width: 40%;
-      transition-duration: 600ms ;
-    }
   }
-  
+  &__subtitle{
+    font-size: 1.5rem;
+  }
   &__image {
-    flex: 0 0 200px;
     height: 200px;
-    margin: 150px 0 25px 0;
+    margin: 25px 0 25px 0;
     z-index: 2;
     opacity: 1;
-    
     img {
-      border: $color-icons 5px solid;
+      border: #45596d 4px solid;
       width: 200px;
       height: 200px;
-      // border-top-right-radius: 25%;
-      // outline: 1rem solid;
+      border-top-right-radius: 25%;
       object-fit: cover;
       object-position: center top;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+      box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
       transition-duration: 600ms ;
       &:hover{
         transform: scale(1.1);
@@ -48,58 +53,37 @@
     display: flex;
     flex-direction: column;
     color: #fff;
-    margin-bottom: 50px;
   }
 
   &__text {
     display: block;
     color: white;
-    width: 500px ;
+    width: 50% ;
     height: max-content;
-    text-align: left;
+    text-align: justify;
     align-items: center;
-    margin-top: 100px;
-    font-size: 0.8rem;
-    
-    
-    &.expanded {
-      display: flex;
-      justify-content: center;
-      width: 70%;
-      text-align: justify;
-      margin-top: 80px;
-      padding: 50px 70px;
-      color: $color-font;
-      font-size: large;
-      transition-delay: 1000ms;
-    }
+    font-size: 1rem;
+
   }
   
 }
 @media screen and (max-width: 930px) {
   .about-me{
     flex-direction: column;
-    height: 500px;
-    &.expanded {
-      height: 1200px;
-    }
+    // margin: 2%;
+    height: max-content;
+    margin: 80px 2%;
+    // min-height: 100%;
     &__container {
-      display: block;
+      // display: block;
       width: 100%;
       transition-duration: 0s ;
-      
-      &.expanded {
-        height: 300px;
-        width: 100%;
-        transition-duration: 0s;
-        height: 1200px;
-      }
     }
     
     &__image {
       flex: 0 0 200px;
       height: 200px;
-      margin: 150px 0 25px 0;
+      margin: 20px 0 25px 0;
       z-index: 2;
       opacity: 1;
       
@@ -112,12 +96,6 @@
         object-position: center top;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
         transition-duration: 0s;
-        &:hover{
-          transform: scale(1);
-          box-shadow: 0 8px 18px rgba(0, 0, 0, 1.2);
-          transition-duration: 0s ;
-          
-        }
       }
     }
     
@@ -129,23 +107,9 @@
     }
   
     &__text {
-      display: none;
-      width: 80%;
-      height: 500px;
-      font-size: 0.5rem;
-      
-      &.expanded {
-        position: absolute;
-        top: 450px;
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        text-align: justify;
-        margin-top: 10px;
-        padding: 15px;
-        color: $color-font;
-        font-size: 0.8rem;
-      }
+      // display: none;
+      width: 100%;
+      font-size: 0.8rem;
       
     }
   }
