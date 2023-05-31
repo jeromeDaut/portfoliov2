@@ -8,6 +8,7 @@ const Cards = () => {
   const [cardsData, setCardsData] = useState([]);
   const [modalShow, setModalShow] = React.useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
   // const [showCards, setShowCards] = useState(false);
   
 
@@ -16,6 +17,19 @@ const Cards = () => {
       .then(response => response.json())
       .then(data => setCardsData(data))
       .catch(error => console.error(error));
+  }, []);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 425); // Mettez ici la largeur de l'écran qui définit votre seuil entre mobile et desktop
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Vérifiez l'état initial lors du chargement du composant
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const handleCardClick = (card) => {
@@ -31,12 +45,17 @@ const Cards = () => {
           <article className='container__project'>
             {cardsData.map(card => (
               
-              <Figure onClick={() => handleCardClick(card)} className='card btn btn-primary' id='btn' key={card.id}>
+              <Figure 
+              onClick={() => handleCardClick(card)} 
+              className={`card btn btn-primary ${isMobile ? 'cardMobile' : 'cardDesktop'}`} 
+              id='btn' 
+              key={card.id}
+              >
                 <h3>{card.title}</h3>
-                <img className='card__image' src={card.cover} alt='' />
-                {/* <figcaption>
-                <h3 className='card__title'>{card.techno}</h3>
-                </figcaption> */}
+                <img 
+                className={`card__image ${isMobile ? 'card__imageMobile' : 'card__imageDesktop'}`} 
+                src={isMobile ? card.coverMobile : card.cover} 
+                alt='' />
               </Figure>
             ))}
             
