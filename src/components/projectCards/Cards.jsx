@@ -21,11 +21,11 @@ const Cards = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 425); // Mettez ici la largeur de l'écran qui définit votre seuil entre mobile et desktop
+      setIsMobile(window.innerWidth <= 425); 
     };
 
     window.addEventListener('resize', handleResize);
-    handleResize(); // Vérifiez l'état initial lors du chargement du composant
+    handleResize(); // 
 
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -33,7 +33,7 @@ const Cards = () => {
   }, []);
 
   const handleCardClick = (card) => {
-    setSelectedCard(card); // Stocker l'objet de carte sélectionné dans l'état selectedCard
+    setSelectedCard(card); 
     setModalShow(true);
   }
  
