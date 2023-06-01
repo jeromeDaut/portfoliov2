@@ -1,0 +1,32 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: max-content;
+    margin: 180px auto;
+    padding: 20px;
+    @include custom-box-shadow;
+    &__title{
+        text-shadow: 0 0 5px #ffffff, 0 0 20px #6eabdd, 0 0 30px #310eb1;
+        font-size: 5rem;
+        margin-bottom: 40px;
+        &--msg{
+            margin-bottom: 50px;
+            text-shadow: 0 0 1px #ffffff, 0 0 8px #6eabdd, 0 0 10px #310eb1;
+        }
+    }
+    &__redirect{
+        margin-top: 50px;
+        text-decoration: underline;
+        font-size: 1.2rem;
+    }
+    &__shadok{
+        font-size: 0.7rem;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
