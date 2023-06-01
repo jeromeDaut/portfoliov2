@@ -1,6 +1,7 @@
 
 #about{
   margin-top: 120px;
+  
 }
 .about-me {
   display: flex;
@@ -10,11 +11,7 @@
   height: auto;
   margin: 50px;
   padding-top: 100px;
-  box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
-  backdrop-filter: blur( 6px );
-  -webkit-backdrop-filter: blur( 13px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  @include custom-box-shadow;
   padding: 20px;
 
   &__container {
@@ -23,7 +20,11 @@
     transition-duration: 600ms ;
     
   }
+  &__title{
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #6eabdd, 0 0 30px #310eb1;
+  }
   &__subtitle{
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #6eabdd, 0 0 30px #310eb1;
     font-size: 1.5rem;
   }
   &__image {
@@ -54,7 +55,7 @@
     flex-direction: column;
     color: #fff;
   }
-
+  
   &__text {
     display: block;
     color: white;
@@ -63,7 +64,9 @@
     text-align: justify;
     align-items: center;
     font-size: 1rem;
-
+    p{
+      text-shadow: 0 0 1px #ffffff, 0 0 8px #6eabdd, 0 0 10px #310eb1;
+    }
   }
   
 }
