@@ -3,18 +3,18 @@
       "id": 1,
       "title": "HTML et CSS",
       "cover": "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
-      "coverMobile": "./MobBooki.png",
+      "coverMobile": "./MobBooki.webp",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
       "links":{
         "github":"https://github.com/jeromeDaut/P3-Booki-OP",
-        "logoGithub":"./images/Github.png",
+        "logoGithub":"./images/Github.webp",
         "pages":"https://jeromedaut.github.io/P3-Booki-OP/",
-        "logoPages":"./images/link.png"
+        "logoPages":"./images/link.webp"
       },
       "techno": " HTML CSS",
       "logo":{
-        "html": "./images/HTML.png",
-        "css": "./images/CSS3.png"
+        "html": "./images/HTML.webp",
+        "css": "./images/CSS3.webp"
       },
       "showLogo": true
     },
@@ -23,38 +23,38 @@
       "id": 2,
       "title": "SASS et Animations ",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559011566667_FR_1117_P4_Banner-Ohmyfood.png",
-      "coverMobile": "./mobOh.png",
+      "coverMobile": "./mobOh.webp",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animation ",
       "techno":" HTML SASS",
       "links":{
         "github":"https://github.com/jeromeDaut/Ohmyfood-p4",
-        "logoGithub":"./images/Github.png",
+        "logoGithub":"./images/Github.webp",
         "pages":"https://jeromedaut.github.io/Ohmyfood-p4/",
-        "logoPages":"./images/link.png"
+        "logoPages":"./images/link.webp"
       },
       "logo":{
-        "html": "./images/HTML.png",
-        "sass": "./images/Sass.png",
-        "figma": "./images/Figma.png"
+        "html": "./images/HTML.webp",
+        "sass": "./images/Sass.webp",
+        "figma": "./images/Figma.webp"
       },
       "showLogo": true
     },
     {
       "id": 3,
       "title": "Site Javascript",
-      "cover": "./Sophie.png",
-      "coverMobile": "./mobBluel.png",
+      "cover": "./Sophie.webp",
+      "coverMobile": "./mobBluel.webp",
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
       "techno":"HTML SASS JavaScript",
       "links":{
         "github":"https://github.com/jeromeDaut/P6-page-web-dynamique-avec-JavaScript",
-        "logoGithub":"./images/Github.png"
+        "logoGithub":"./images/Github.webp"
       },
       "logo":{
-        "html": "./images/HTML.png",
-        "sass": "./images/Sass.png",
-        "figma": "./images/Figma.png",
-        "javaScript": "./images/JavaScript.png"
+        "html": "./images/HTML.webp",
+        "sass": "./images/Sass.webp",
+        "figma": "./images/Figma.webp",
+        "javaScript": "./images/JavaScript.webp"
       },
       "showLogo": true
 
@@ -63,19 +63,19 @@
       "id": 4,
       "title": "Site React",
       "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
-      "coverMobile":"./mobKasa.png",
+      "coverMobile":"./mobKasa.webp",
       "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
       "techno":"HTML SASS REACT",
       "links":{
         "github":"https://github.com/jeromeDaut/Kasa-location-appartements",
-        "logoGithub":"./images/Github.png"
+        "logoGithub":"./images/Github.webp"
       },
       "logo":{
-        "html": "./images/HTML.png",
-        "sass": "./images/Sass.png",
-        "figma": "./images/Figma.png",
-        "react": "./images/React.png",
-        "react-router": "./images/react-router.png"
+        "html": "./images/HTML.webp",
+        "sass": "./images/Sass.webp",
+        "figma": "./images/Figma.webp",
+        "react": "./images/React.webp",
+        "react-router": "./images/react-router.webp"
       },
       "showLogo": true
 
@@ -83,18 +83,18 @@
     {
       "id": 5,
       "title": "Débug site React",
-      "cover": "./logo724.png",
-      "coverMobile":"./mob724.png",
+      "cover": "./logo724.webp",
+      "coverMobile":"./mob724.webp",
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
       "links":{
         "github":"https://github.com/jeromeDaut/Debugger-une-appli-React",
-        "logoGithub":"./images/Github.png"
+        "logoGithub":"./images/Github.webp"
       },
       "techno":"JEST Testing-library REACT",
       "logo":{
-        "react": "./images/React.png",
-        "testing-library":"./images/testing.png", 
-        "jest":"./images/Jest.png" 
+        "react": "./images/React.webp",
+        "testing-library":"./images/testing.webp", 
+        "jest":"./images/Jest.webp" 
       },
       "showLogo": true
 
@@ -103,22 +103,22 @@
       "id": 6,
       "title": "Gestion projet Agile",
       "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
-      "coverMobile": "./mobQwenta.png",
+      "coverMobile": "./mobQwenta.webp",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
       "techno":"PADLET TRELLO POWERPOINT AGILE",
       "links":{
         "trello":"https://trello.com/b/0aYZA7XC/mod%C3%A8le-kanban-pour-qwenta",
         "logoTrello":"./images/trellologo.webp",
         "padlet":"https://padlet.com/jeromedautreme/veille-projet-menumaker-by-qwenta-gn61t2n42fat23hx",
-        "logoPadlet":"./images/PadletLogo.png",
+        "logoPadlet":"./images/PadletLogo.webp",
         "oneDrive":"https://1drv.ms/f/s!Am18ToY95PU1gY5cVd0nXtKxtt--Jg?e=i2kGbm",
-        "logoOneDrive":"./images/onedrive.png"
+        "logoOneDrive":"./images/onedrive.webp"
       },
       "logo":{
-        "padlet": "./images/PadletLogo.png",
+        "padlet": "./images/PadletLogo.webp",
         "trello":"./images/trellologo.webp", 
-        "powerpoint":"./images/PowerPoint.png", 
-        "scrum":"./images//scrum-project.png" 
+        "powerpoint":"./images/PowerPoint.webp", 
+        "scrum":"./images//scrum-project.webp" 
       },
       "showLogo": false
     
@@ -127,19 +127,19 @@
       "id": 7,
       "title": "Projet SEO",
       "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
-      "coverMobile":"./mobNina.png",
+      "coverMobile":"./mobNina.webp",
       "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
       "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
       "links":{
         "github":"https://github.com/jeromeDaut/Photographie-Carducci",
-        "logoGithub":"./images/Github.png",
+        "logoGithub":"./images/Github.webp",
         "pages":"https://jeromedaut.github.io/Photographie-Carducci/",
-        "logoPages":"./images/link.png"
+        "logoPages":"./images/link.webp"
       },
       "logo":{
-        "html":"./images/HTML.png",
-        "lighthouse": "./images/Lighthouse.png",
-        "schema":"./images/Schema.org.png", 
+        "html":"./images/HTML.webp",
+        "lighthouse": "./images/Lighthouse.webp",
+        "schema":"./images/Schema.org.webp", 
         "wave":"./images/wavelogo.svg",
         "squoosh":"./images/squoosh.svg"
       },
@@ -149,18 +149,18 @@
       "id": 8,
       "title": "Appli React Redux",
       "cover": "https://user.oc-static.com/upload/2023/04/17/1681723159368_Capture%20d%E2%80%99e%CC%81cran%202023-04-17%20a%CC%80%2011.19.09.png",
-      "coverMobile":"./mobBank.png",
+      "coverMobile":"./mobBank.webp",
       "paragraph": "A partir d'un design fait en HTML et CSS et d'un backend express/mongoDB, réalisation d'une application bancaire en React en utilisant Redux-Toolkit",
       "linkGithub":"",
       "linkPages":"",
       "techno":"REACT REDUX-TOOLKIT AXIOS",
       "links":{
         "github":"https://github.com/jeromeDaut/ArgentBank-website",
-        "logoGithub":"./images/Github.png"
+        "logoGithub":"./images/Github.webp"
       },
       "logo":{
-        "react": "./images/React.png",
-        "redux-toolkit": "./images/Redux.png"
+        "react": "./images/React.webp",
+        "redux-toolkit": "./images/Redux.webp"
       },
       
       "showLogo": true
