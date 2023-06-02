@@ -3,22 +3,28 @@
     padding: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
-    
+    font-size: 50px;
     a{
         transition: transform 0.4s ease;
         color: $color-font;
+        width: 80px;
+        height: 80px;
         padding: 5px;
         border-radius: 50%;
         border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         &:hover{
             color: $color-title;
             transform: scale(1.2);
             // transition-delay: 0.3s;
 
         }
-    }
-    i{
-        font-size: 50px;
+        .bx{
+        }
     }
 }
