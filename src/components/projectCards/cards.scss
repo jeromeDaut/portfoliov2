@@ -72,7 +72,7 @@
         .project{
           margin-top: 50px;
           .container__project{
-          grid-template-columns: repeat(2, 2fr);
+          grid-template-columns: repeat(2, 1fr);
   
           }}
       }
@@ -80,7 +80,7 @@
         .project{
         margin-top: 50px;
         .container__project{
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(2, 2fr);
 
         }
         h3{
@@ -100,6 +100,12 @@
         }
         }
       } 
+      @media screen and (max-width: 768px) {
+        .container__project{
+          display: block;
+  
+          }
+      }
 
       
       
