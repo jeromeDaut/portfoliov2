@@ -6,13 +6,11 @@
 }
 
 body{
-    background: no-repeat  url('../images/test.jpg');
+    background: no-repeat  url('../images/bg.webp');
     background-size: cover;
-    // background:  10%  no-repeat url(../../assets/images/6913982.jpg);
-    // background-color: #000;
     overflow-x: hidden;
-// background-color: rgb(167, 165, 164);
 }
+
 @media screen and (max-width: 930px) {
     body{
       display: flex !important;

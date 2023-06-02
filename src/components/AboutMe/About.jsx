@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from '../../assets/images/portrait.jpg';
+import portrait from '../../assets/images/portrait.webp';
 import SectionTitle from '../sectionTitle/SectionTitle';
 
 const About = () => {
