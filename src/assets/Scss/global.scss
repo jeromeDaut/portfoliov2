@@ -4,11 +4,11 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-
 body{
     background: no-repeat  url('../images/bg.webp');
     background-size: cover;
     overflow-x: hidden;
+    z-index: 5;
 }
 
 @media screen and (max-width: 930px) {

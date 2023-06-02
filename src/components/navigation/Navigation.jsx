@@ -55,7 +55,7 @@ const Navigation = () => {
         <ul className="header__nav-list">
           {navItems.map(item => (
             <li key={item.id} className="header__nav-item">
-              <HashLink smooth to={item.link} className="header__nav-link" onClick={handleLinkClick}>
+              <HashLink smooth to={item.link} title={item.text} className="header__nav-link" onClick={handleLinkClick}>
                 {item.text}
               </HashLink>
               <hr />

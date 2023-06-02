@@ -55,7 +55,9 @@ const Cards = () => {
                 <img 
                 className={`card__image ${isMobile ? 'card__imageMobile' : 'card__imageDesktop'}`} 
                 src={isMobile ? card.coverMobile : card.cover} 
-                alt='' />
+                alt={card.alt} 
+                title={card.alt}  
+                />
               </Figure>
             ))}
             
