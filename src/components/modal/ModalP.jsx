@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import  Modal  from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
 // import {cardsData} from '../projectCards/Cards'
 
 const ModalP = (props) => {
   const {card} = props;
+  const [isMobile, setIsMobile] = useState(false);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); 
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // 
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <Modal
       {...props}
@@ -19,7 +33,7 @@ const ModalP = (props) => {
       </Modal.Header>
       <Modal.Body>
         <div className='ImgModal'>
-          <img src={card?.cover} alt={card?.title} />
+          <img src={isMobile ? card?.coverMobile : card?.cover} alt={card?.title}/>
         </div>
         <div className="containerModal">
           <div className='containerModal__target containerModal__target--title'>
@@ -44,7 +58,7 @@ const ModalP = (props) => {
       <Modal.Footer>
   
     <div>
-      <h3>Liens vers ressources externes :</h3>
+      <h3>Ressources externes :</h3>
       <div className='containerModal__links'>
             {card?.links && (
               <>
