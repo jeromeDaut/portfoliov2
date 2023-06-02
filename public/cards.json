@@ -2,6 +2,7 @@
     {
       "id": 1,
       "title": "HTML et CSS",
+      "alt": "image projet booki",
       "cover": "./images/CoverDesktop/Booki.webp",
       "coverMobile": "./images/CoverMobile/MobBooki.webp",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
@@ -22,6 +23,7 @@
     {
       "id": 2,
       "title": "SASS et Animations ",
+      "alt": "image projet Ohmyfood",
       "cover": "./images/CoverDesktop/Ohmyfood.webp",
       "coverMobile": "./images/CoverMobile/mobOh.webp",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animation ",
@@ -42,6 +44,7 @@
     {
       "id": 3,
       "title": "Site Javascript",
+      "alt": "image projet architecte Sophie Bluel",
       "cover": "./images/CoverDesktop/Sophie.webp",
       "coverMobile": "./images/CoverMobile/mobBluel.webp",
       "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
@@ -57,11 +60,12 @@
         "javaScript": "./images/Logos/JavaScript.webp"
       },
       "showLogo": true
-
+      
     },
     {
       "id": 4,
       "title": "Site React",
+      "alt": "image projet kasa",
       "cover": "./images/CoverDesktop/Kasa.webp",
       "coverMobile":"./images/CoverMobile/mobKasa.webp",
       "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
@@ -78,11 +82,12 @@
         "react-router": "./images/Logos/react-router.webp"
       },
       "showLogo": true
-
+      
     },
     {
       "id": 5,
       "title": "Débug site React",
+      "alt": "image projet de debuggage",
       "cover": "./images/CoverDesktop/logo724.webp",
       "coverMobile":"./images/CoverMobile/mob724.webp",
       "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
@@ -97,11 +102,12 @@
         "jest":"./images/Logos/Jest.webp" 
       },
       "showLogo": true
-
+      
     },
     {
       "id": 6,
       "title": "Gestion projet Agile",
+      "alt": "image projet Agile",
       "cover": "./images/CoverDesktop/Qwenta.webp",
       "coverMobile": "./images/CoverMobile/mobQwenta.webp",
       "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
@@ -121,11 +127,12 @@
         "scrum":"./images/Logos/scrum-project.webp" 
       },
       "showLogo": false
-    
+      
     },
     {
       "id": 7,
       "title": "Projet SEO",
+      "alt": "image projet SEO",
       "cover": "./images/CoverDesktop/ninaC.webp",
       "coverMobile":"./images/CoverMobile/mobNina.webp",
       "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
@@ -148,6 +155,7 @@
     {
       "id": 8,
       "title": "Appli React Redux",
+      "alt": "image projet banquaire",
       "cover": "./images/CoverDesktop/bank.webp",
       "coverMobile":"./images/CoverMobile/mobBank.webp",
       "paragraph": "A partir d'un design fait en HTML et CSS et d'un backend express/mongoDB, réalisation d'une application bancaire en React en utilisant Redux-Toolkit",
