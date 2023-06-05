@@ -5,6 +5,8 @@
       "alt": "image projet booki",
       "cover": "./images/CoverDesktop/Booki.webp",
       "coverMobile": "./images/CoverMobile/MobBooki.webp",
+      "width": "380",
+      "height": "150",
       "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
       "links":{
         "github":"https://github.com/jeromeDaut/P3-Booki-OP",
