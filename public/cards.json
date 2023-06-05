@@ -158,7 +158,7 @@
         "logoPages":"./images/Logos/link.webp"
       },
       "logo":{
-        "html":"./images/HTML.webp",
+        "html":"./images/Logos/HTML.webp",
         "lighthouse": "./images/Logos/Lighthouse.webp",
         "schema":"./images/Logos/Schema.org.webp", 
         "wave":"./images/Logos/wavelogo.svg",
