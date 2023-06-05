@@ -58,7 +58,8 @@ const Cards = () => {
                 alt={card.alt} 
                 title={card.alt}
                 width={isMobile ? card.width : null}
-                height={isMobile? card.height : null}  
+                height={isMobile? card.height : null}
+                loading='lazy'  
                 />
               </Figure>
             ))}
