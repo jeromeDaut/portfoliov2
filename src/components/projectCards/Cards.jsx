@@ -57,8 +57,6 @@ const Cards = () => {
                 src={isMobile ? card.coverMobile : card.cover} 
                 alt={card.alt} 
                 title={card.alt}
-                width={isMobile ? card.width : null}
-                height={isMobile? card.height : null}
                 loading='lazy'  
                 />
               </Figure>
