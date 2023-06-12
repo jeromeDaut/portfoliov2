@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import SectionTitle from "../sectionTitle/SectionTitle";
 
+
 function Form() {
   const { register, handleSubmit, formState: { errors } } = useForm();
   
@@ -10,7 +11,7 @@ function Form() {
   return (
     <section className="formulaire">
         <SectionTitle id="contact"/>
-        <form onSubmit={handleSubmit(onSubmit)} className="form">
+        <form method="post" onSubmit={handleSubmit(onSubmit)} className="form" action="../../../../submit_form.php">
             <div className="form__row">
                
                 <div className="form__element form__element--half-width">
