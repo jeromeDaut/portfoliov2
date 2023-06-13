@@ -30,7 +30,7 @@ function Form() {
 
                     <div className="form__field">
                         <label htmlFor="mail" className="form__label">Adresse mail:</label>
-                        <input type="email" {...register("email", {required: true})} className="form__input" name="mail" id="mail"/>
+                        <input type="email" {...register("email", {required: true})} className="form__input" name="email" id="mail"/>
                     {   errors.email && <span className="form__error">Ce champ est requis.</span>}
                     </div>
 
@@ -40,7 +40,7 @@ function Form() {
 
                     <div className="form__field">
                         <label htmlFor="text" className="form__label">Message:</label>
-                        <textarea {...register("message", {required: true})} className="form__textarea" name="text" id="text"/>
+                        <textarea {...register("message", {required: true})} className="form__textarea" name="message" id="text"/>
                         {errors.message && <span className="form__error">Ce champ est requis.</span>}
                     </div>
 
