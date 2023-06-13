@@ -11,7 +11,7 @@ function Form() {
   return (
     <section className="formulaire">
         <SectionTitle id="contact"/>
-        <form method="post" onSubmit={handleSubmit(onSubmit)} className="form" action="../../../../submit_form.php">
+        <form method="post" onSubmit={handleSubmit(onSubmit)} className="form" action="../../../submit_form.php">
             <div className="form__row">
                
                 <div className="form__element form__element--half-width">
