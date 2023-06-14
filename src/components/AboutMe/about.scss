@@ -12,6 +12,8 @@
   padding-top: 100px;
   @include custom-box-shadow;
   padding: 20px;
+  animation: slide-back 800ms ease-in-out forwards;
+  transition-duration: 600ms ;
 
   &__container {
     display: flex;

@@ -30,6 +30,8 @@
       font-size: 50px;
       list-style-type: none;
       margin: 80px auto ;
+      animation: slide-back 800ms ease-in-out forwards;
+      transition-duration: 600ms ;
     }
     &__item {
       @include flex-column;
@@ -39,10 +41,10 @@
       border: solid 1px rgb(180, 178, 178);
       box-shadow: 2px 5px 10px rgba(24, 23, 23, 0.555);
       transform: translateX(500%);
-      animation: slide-back 800ms ease-in-out forwards;
-      transition-duration: 600ms ;
       padding: 5px 0;
       cursor: pointer;
+      animation: slide-back 800ms ease-in-out forwards;
+      transition-duration: 600ms ;
       
       &:hover{
         transform: scale(1.05);
