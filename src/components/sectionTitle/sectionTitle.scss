@@ -1,12 +1,4 @@
-@keyframes slide-in {
-    0% {
-      transform: translateX(-100%) skew(0deg);
-    }
-    100% {
-      transform: skew(-25deg) translateX(0%);
-    }
 
-  }
 
 
 .banner {
@@ -16,7 +8,7 @@
     color: $color-font;
     width: 36%;
     background-color: $color-title;
-    background: linear-gradient(45deg,#DD4B25 .29%,#E96228 50.14%,#f5bb70);
+    @include gradient-bg-titles;
     padding: 5px 10px;
     transform: skew(-25deg);
     padding: 10px 25px 5px 0;
@@ -24,7 +16,7 @@
     transform: translateX(-100%);
     animation: slide-in 800ms ease-in-out forwards;
     h2{
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        @include text-shadow-black;
         font-weight: bold;
     }
 }

@@ -15,12 +15,10 @@ a{
     
 }
 .modal-title{
-    // background: $color-title;
     margin-left: auto;
 }
 .ImgModal{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
     img{
         border: 3px solid $color-font;
         object-fit: fill;
@@ -38,17 +36,15 @@ a{
         width: 100%;
         padding: 5px;
         border-radius: 5px;
-        background: linear-gradient(45deg,#DD4B25 .29%,#E96228 50.14%,#f5bb70);
-
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        @include gradient-bg-titles;
+        @include text-shadow-black;
     }
     &__target,
     &__skills{
         margin-top: 15px;
         width: 50%;
         padding: 10px;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         flex-wrap: wrap;
         align-items: center;
         &--title{
@@ -85,14 +81,13 @@ a{
         margin: 0 auto;
         padding: 5px;
         border-radius: 5px;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        background: linear-gradient(45deg,#DD4B25 .29%,#E96228 50.14%,#f5bb70);
+        @include text-shadow-black;
+        @include gradient-bg-titles;
         width: fit-content;
         box-shadow: 0px 0px 20px rgba(18, 17, 17, 0.8);
     }
     .containerModal__links{
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         gap: 40px;
         margin-top: 30px;
         h4{

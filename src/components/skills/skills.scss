@@ -1,15 +1,5 @@
-@keyframes slide-back {
-    0% {
-      transform: translateX(1400px);
-    }
-    100% {
-      transform:  translateX(0%);
-    }
-    
-  }
+
   .skills{
-    color: $color-font;
-    // padding: 50px;
     margin-bottom: 50px ;
     h2{
       white-space: nowrap;
@@ -42,8 +32,7 @@
       margin: 80px auto ;
     }
     &__item {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
       align-items: center;
       border-radius: 10%;
       width: 130px;
@@ -52,31 +41,28 @@
       transform: translateX(500%);
       animation: slide-back 800ms ease-in-out forwards;
       transition-duration: 600ms ;
-      color: rgb(29, 29, 29);
       padding: 5px 0;
       cursor: pointer;
+      
       &:hover{
         transform: scale(1.05);
         transition-duration: 600ms ;
         @include box-shadow-cards;
       }
-      }
-      p{
-        font-size: large;
-        font-weight: bold;
-        margin: 0;
-
-      }
-}
-
-@keyframes slide-in {
-    0% {
-      transform: translateX(-100%) skew(0deg);
     }
-    100% {
-      transform: skew(-25deg) translateX(0%);
+    p{
+      font-size: large;
+      font-weight: bold;
+      margin: 0;
+      color: $skills-color ;
+      
     }
+    path{
+    color: $skills-color;
   }
+  }
+
+
   @media screen and (max-width: 1000px) {
       .skills{
         margin-left: 2%;

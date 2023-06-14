@@ -13,3 +13,30 @@
 }
 // @include box-shadow-cards;
 
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// @include flex-center;
+
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}
+// @include flex-column;
+
+@mixin shadow-neon-effect{
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #6eabdd, 0 0 30px #310eb1;
+}
+// @include shadow-neon-effect;
+
+@mixin text-shadow-black{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+// @include text-shadow-black;
+
+@mixin gradient-bg-titles{
+    background: linear-gradient(45deg,#DD4B25 .29%,#E96228 50.14%,#f5bb70);
+}
+// @include gradient-bg-titles;

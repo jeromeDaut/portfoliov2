@@ -4,9 +4,8 @@
   
 }
 .about-me {
-  display: flex;
+  @include flex-center;
   justify-content: space-around;
-  align-items: center;
   text-align: center;
   height: auto;
   margin: 50px;
@@ -21,10 +20,10 @@
     
   }
   &__title{
-    text-shadow: 0 0 5px #ffffff, 0 0 20px #6eabdd, 0 0 30px #310eb1;
+    @include shadow-neon-effect;
   }
   &__subtitle{
-    text-shadow: 0 0 5px #ffffff, 0 0 20px #6eabdd, 0 0 30px #310eb1;
+    @include shadow-neon-effect;
     font-size: 1.5rem;
   }
   &__image {
@@ -51,14 +50,11 @@
   }
   
   &__content {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
+    @include flex-column;
   }
   
   &__text {
     display: block;
-    color: white;
     width: 50% ;
     height: max-content;
     align-items: center;
@@ -74,12 +70,9 @@
 @media screen and (max-width: 930px) {
   .about-me{
     flex-direction: column;
-    // margin: 2%;
     height: max-content;
     margin: 80px 2%;
-    // min-height: 100%;
     &__container {
-      // display: block;
       width: 100%;
       transition-duration: 0s ;
     }
@@ -104,14 +97,11 @@
     }
     
     &__content {
-      display: flex;
-      flex-direction: column;
-      color: #fff;
+      @include flex-column;
       margin-bottom: 10px;
     }
   
     &__text {
-      // display: none;
       width: 100%;
       font-size: 0.8rem;
       

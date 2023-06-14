@@ -1,5 +1,6 @@
 $header-height: 80px;
 .scroll-button {
+  @include flex-center;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -7,10 +8,6 @@ $header-height: 80px;
   height: 50px;
   border-radius: 50%;
   background-color: #ca4343;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s, visibility 0.3s;
@@ -32,9 +29,7 @@ $header-height: 80px;
   border-bottom: 1px solid rgb(36, 35, 35);
 
   &__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     height: 100%;
     padding: 0 20px;
   }
@@ -49,10 +44,11 @@ $header-height: 80px;
   &__nav-item {
     margin-left: 20px;
     margin-top: 25px;
+    color: $color-nav;
   }
   
   &__nav-link {
-    color: #fff;
+    color: #fff ;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;

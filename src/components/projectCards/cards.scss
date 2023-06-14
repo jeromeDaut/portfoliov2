@@ -1,14 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-@keyframes shiftImageLeft {
-    0% {
-      margin: 0 auto;
-      
-    }
-    100% {
-      margin-left: 0;
-      
-    }
-  }
+
   
 .project {
     padding-top: 0;
@@ -51,7 +42,7 @@
           margin: 0 auto;
           word-spacing: 0.5rem;
           font-size: 1.7rem;
-          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          @include text-shadow-black;
         }
         
         &:hover , &:active{
