@@ -16,8 +16,8 @@
       "logo":{
         "html": "./images/Logos/HTML.webp",
         "css": "./images/Logos/CSS3.webp"
-      },
-      "showLogo": true
+      }
+      
     },
     
     {
@@ -38,8 +38,8 @@
         "html": "./images/Logos/HTML.webp",
         "sass": "./images/Logos/Sass.webp",
         "figma": "./images/Logos/Figma.webp"
-      },
-      "showLogo": true
+      }
+      
     },
     {
       "id": 3,
@@ -58,8 +58,8 @@
         "sass": "./images/Logos/Sass.webp",
         "figma": "./images/Logos/Figma.webp",
         "javaScript": "./images/Logos/JavaScript.webp"
-      },
-      "showLogo": true
+      }
+      
       
     },
     {
@@ -80,8 +80,8 @@
         "figma": "./images/Logos/Figma.webp",
         "react": "./images/Logos/React.webp",
         "react-router": "./images/Logos/react-router.webp"
-      },
-      "showLogo": true
+      }
+      
       
     },
     {
@@ -100,8 +100,8 @@
         "react": "./images/Logos/React.webp",
         "testing-library":"./images/Logos/testing.webp", 
         "jest":"./images/Logos/Jest.webp" 
-      },
-      "showLogo": true
+      }
+      
       
     },
     {
@@ -149,8 +149,7 @@
         "schema":"./images/Logos/Schema.org.webp", 
         "wave":"./images/Logos/wavelogo.svg",
         "squoosh":"./images/Logos/squoosh.svg"
-      },
-      "showLogo": true
+      }
     },
     {
       "id": 8,
@@ -169,9 +168,7 @@
       "logo":{
         "react": "./images/Logos/React.webp",
         "redux-toolkit": "./images/Logos/Redux.webp"
-      },
-      
-      "showLogo": true
+      }
       
     }
     ]
