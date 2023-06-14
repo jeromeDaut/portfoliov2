@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import { SiSwagger, SiJavascript, SiHtml5, SiCss3, SiSass, SiBootstrap, SiReact, SiRedux, SiGit, SiGithub, SiFigma } from 'react-icons/si';
 
+// Array of skill items
 const skillItems = [
   { id: 1, category: 'outils', title: 'Git', icon: SiGit, bg_color: 'linear-gradient(45deg,#E84E31 .29%,#f09152 50.14%,#f06e46)' },
   { id: 2, category: 'outils', title: 'Github', icon: SiGithub, bg_color: 'linear-gradient(225deg,#99daff .14%,#a966ff 99.86%)' },
@@ -17,6 +18,7 @@ const skillItems = [
 ];
 
 const Skills = () => {
+    // Filter front-end skills and tools from skillItems
     const frontEndSkills = skillItems.filter(item => item.category === 'front');
     const tools = skillItems.filter(item => item.category === 'outils');
   

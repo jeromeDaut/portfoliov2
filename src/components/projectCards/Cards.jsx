@@ -2,16 +2,14 @@ import React, { useState, useEffect } from 'react';
 import ModalP from '../modal/ModalP';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import { Figure } from 'react-bootstrap';
-// import { NavLink } from 'react-router-dom';
-// import 'boxicons'
+
 const Cards = () => {
   const [cardsData, setCardsData] = useState([]);
   const [modalShow, setModalShow] = React.useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
-  // const [showCards, setShowCards] = useState(false);
-  
 
+// Fetching card data when component mounts
   useEffect(() => {
     fetch('/cards.json')
       .then(response => response.json())
@@ -20,21 +18,23 @@ const Cards = () => {
   }, []);
 
   useEffect(() => {
+    // Handling window resizing
     const handleResize = () => {
+      // Checking if the window width is less than or equal to 425 pixels
       setIsMobile(window.innerWidth <= 425); 
     };
 
     window.addEventListener('resize', handleResize);
-    handleResize(); // 
+    handleResize(); // Calling the handleResize function initially 
 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  const handleCardClick = (card) => {
-    setSelectedCard(card); 
-    setModalShow(true);
+  const handleCardClick = (card) => { 
+    setSelectedCard(card); // Setting the selected card
+    setModalShow(true); // Opening the modal
   }
  
   return (

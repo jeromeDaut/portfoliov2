@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import  Modal  from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
-// import {cardsData} from '../projectCards/Cards'
 
 const ModalP = (props) => {
   const {card} = props;
@@ -12,8 +11,10 @@ const ModalP = (props) => {
       setIsMobile(window.innerWidth <= 768); 
     };
 
+    // Executes the handleResize function on initial render
     window.addEventListener('resize', handleResize);
-    handleResize(); // 
+    handleResize(); 
+
 
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -28,22 +29,29 @@ const ModalP = (props) => {
     >
       <Modal.Header closeButton closeVariant="white">
         <Modal.Title id="contained-modal-title-vcenter">
+        {/* Renders the title of the card */}
         <h2>{card ? card.title : ''}</h2>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+      {/* Image container */}
         <div className='ImgModal'>
           <img src={isMobile ? card?.coverMobile : card?.cover} alt={card?.title}/>
         </div>
+        {/* Content container */}
         <div className="containerModal">
+        {/* Target container */}
           <div className='containerModal__target containerModal__target--title'>
             <h3>Objectif :</h3>
+            {/* Renders the paragraph of the card */}
             <p className='containerModal__target--paragraph'>{card?.paragraph}</p>
           </div>
+          {/* Skills container */}
           <div className='containerModal__skills'>
             <h3>Compétences / Outils :</h3>
             <div className='containerModal__skills--center'>
               {card?.logo && 
+            // Renders the logos based on the keys in the "logo" object
               Object.keys(card.logo).map((key)=> (
               <img 
               className='containerModal__skills--logo' 
@@ -60,6 +68,7 @@ const ModalP = (props) => {
     <div>
       <h3>Ressources externes :</h3>
       <div className='containerModal__links'>
+      {/* Renders the links and corresponding logos */}
             {card?.links && (
               <>
                 {card.links.github && (
