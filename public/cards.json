@@ -5,7 +5,7 @@
       "alt": "image projet booki",
       "cover": "./images/CoverDesktop/Booki.webp",
       "coverMobile": "./images/CoverMobile/MobBooki.webp",
-      "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive",
+      "paragraph": "À partir d'une maquette Figma, réalisation d'un site statique en HTML et CSS sans framework et responsive.",
       "links":{
         "github":"https://github.com/jeromeDaut/P3-Booki-OP",
         "logoGithub":"./images/Logos/Github.webp",
@@ -26,7 +26,7 @@
       "alt": "image projet Ohmyfood",
       "cover": "./images/CoverDesktop/Ohmyfood.webp",
       "coverMobile": "./images/CoverMobile/mobOh.webp",
-      "paragraph": "A partir d'une d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animation ",
+      "paragraph": "À partir d'une maquette Figma, réalisation d'un site 'Mobile First' en HTML et SASS avec animations.",
       "techno":" HTML SASS",
       "links":{
         "github":"https://github.com/jeromeDaut/Ohmyfood-p4",
@@ -47,7 +47,7 @@
       "alt": "image projet architecte Sophie Bluel",
       "cover": "./images/CoverDesktop/Sophie.webp",
       "coverMobile": "./images/CoverMobile/mobBluel.webp",
-      "paragraph": "A partir d'une page statique, de swagger et d'un back end, réalisation d'un site dynamique en HTML,SASS et JavaScript",
+      "paragraph":"À partir d'une page statique, de Swagger et d'un backend, réalisation d'un site dynamique en HTML, SASS et JavaScript.",
       "techno":"HTML SASS JavaScript",
       "links":{
         "github":"https://github.com/jeromeDaut/P6-page-web-dynamique-avec-JavaScript",
@@ -68,7 +68,7 @@
       "alt": "image projet kasa",
       "cover": "./images/CoverDesktop/Kasa.webp",
       "coverMobile":"./images/CoverMobile/mobKasa.webp",
-      "paragraph": "A partir d'un fichier Json et d'une maquette Figma, réalisation d'un site dynamique en HTML,SASS et React",
+      "paragraph": "À partir d'un fichier JSON et d'une maquette Figma, réalisation d'un site dynamique en HTML, SASS et React.",
       "techno":"HTML SASS REACT",
       "links":{
         "github":"https://github.com/jeromeDaut/Kasa-location-appartements",
@@ -90,7 +90,7 @@
       "alt": "image projet de debuggage",
       "cover": "./images/CoverDesktop/logo724.webp",
       "coverMobile":"./images/CoverMobile/mob724.webp",
-      "paragraph": "A partir d'un site existant et d'un repository Github, réalisation du débogage et corrections des erreurs du site ",
+      "paragraph": "À partir d'un site existant et d'un dépôt GitHub, réalisation du débogage et correction des erreurs du site.",
       "links":{
         "github":"https://github.com/jeromeDaut/Debugger-une-appli-React",
         "logoGithub":"./images/Logos/Github.webp"
@@ -110,7 +110,7 @@
       "alt": "image projet Agile",
       "cover": "./images/CoverDesktop/Qwenta.webp",
       "coverMobile": "./images/CoverMobile/mobQwenta.webp",
-      "paragraph": "A partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques,l'organisation des différentes parties du développement",
+      "paragraph": "À partir d'user stories, réalisation d'un système de veille, d'un fichier des spécifications et solutions techniques, et organisation des différentes parties du développement.",
       "techno":"PADLET TRELLO POWERPOINT AGILE",
       "links":{
         "trello":"https://trello.com/b/0aYZA7XC/mod%C3%A8le-kanban-pour-qwenta",
@@ -125,9 +125,8 @@
         "trello":"./images/Logos/trellologo.webp", 
         "powerpoint":"./images/Logos/PowerPoint.webp", 
         "scrum":"./images/Logos/scrum-project.webp" 
-      },
-      "showLogo": false
-      
+      }
+        
     },
     {
       "id": 7,
@@ -135,7 +134,7 @@
       "alt": "image projet SEO",
       "cover": "./images/CoverDesktop/ninaC.webp",
       "coverMobile":"./images/CoverMobile/mobNina.webp",
-      "paragraph": " A partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel",
+      "paragraph": "À partir d'un site existant, réalisation de l'optimisation, de l'accessibilité et du référencement naturel.",
       "techno":"LIGHTHOUSE SCHEMA.ORG WAVE META",
       "links":{
         "github":"https://github.com/jeromeDaut/Photographie-Carducci",
@@ -157,9 +156,7 @@
       "alt": "image projet banquaire",
       "cover": "./images/CoverDesktop/bank.webp",
       "coverMobile":"./images/CoverMobile/mobBank.webp",
-      "paragraph": "A partir d'un design fait en HTML et CSS et d'un backend express/mongoDB, réalisation d'une application bancaire en React en utilisant Redux-Toolkit",
-      "linkGithub":"",
-      "linkPages":"",
+      "paragraph":  "À partir d'un design réalisé en HTML et CSS, d'un backend express/mongoDB, réalisation d'une application bancaire en React en utilisant Redux-Toolkit.",
       "techno":"REACT REDUX-TOOLKIT AXIOS",
       "links":{
         "github":"https://github.com/jeromeDaut/ArgentBank-website",
