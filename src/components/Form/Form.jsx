@@ -22,7 +22,7 @@ function Form() {
   return (
     <section className="formulaire">
         <SectionTitle id="contact"/>
-        <form ref={form} method="post" onSubmit={sendEmail} className="form" action="../../../submit_form.php">
+        <form ref={form} method="POST" onSubmit={sendEmail} className="form" >
             <div className="form__row">
                
                 <div className="form__element form__element--half-width">
