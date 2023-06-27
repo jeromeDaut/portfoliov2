@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import sgMail from '@sendgrid/mail';
 
-sgMail.setApiKey("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");
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 function Form() {
     const [formData, setFormData] = useState({
