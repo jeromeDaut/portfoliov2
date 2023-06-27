@@ -1,21 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import axios from 'axios';
 
 
 function Form() {
-  
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const handleModalClose = () => {
+      setModalOpen(false);
+    };
+
     const [status, setStatus] = useState({
       submitted: false,
       submitting: false,
       info: { error: false, msg: null },
     });
+
     const [inputs, setInputs] = useState({
-      email: '',
-      message: '',
       prenom: '',
       nom: '',
+      email: '',
+      message: '',
     });
+
     const handleServerResponse = (ok, msg) => {
       if (ok) {
         setStatus({
@@ -24,10 +31,10 @@ function Form() {
           info: { error: false, msg: msg },
         });
         setInputs({
-          email: '',
-          message: '',
           prenom: '',
           nom: '',
+          email: '',
+          message: '',
         });
       } else {
         setStatus({
@@ -35,6 +42,7 @@ function Form() {
         });
       }
     };
+
     const handleOnChange = (e) => {
       e.persist();
       setInputs((prev) => ({
@@ -47,6 +55,7 @@ function Form() {
         info: { error: false, msg: null },
       });
     };
+
     const handleSubmit = (e) => {
       e.preventDefault();
       setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
@@ -58,13 +67,19 @@ function Form() {
         .then((response) => {
           handleServerResponse(
             true,
-            'Thank you, your message has been submitted.',
+            'Merci pour votre message ! Je vous recontacte dans le plus bref délais .',
           );
         })
         .catch((error) => {
           handleServerResponse(false, error.response.data.error);
         });
     };
+    useEffect(() => {
+      if (status.submitted) {
+        setModalOpen(true);
+      }
+    }, [status.submitted]);
+
   return (
     <section className="formulaire">
         <SectionTitle id="contact"/>
@@ -142,12 +157,19 @@ function Form() {
                 </button>
 
             </div>
+        {/* Modale */}
+        {modalOpen && (
+          <div className="modalForm">
+            <div className="modalForm__content">
+              <button className="modalForm__close" onClick={handleModalClose}>
+                X
+              </button>
+              <p>{status.info.msg}</p>
+            </div>
+          </div>
+        )}
 
         </form>
-        {status.info.error && (
-          <div className="error">Error: {status.info.msg}</div>
-        )}
-        {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
     </section>
   );
 }
