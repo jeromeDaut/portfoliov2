@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {errorOccurred && <Navigate to="*" />}{/* Navigates to a fallback route if an error occurred */}
+        {errorOccurred && <Navigate to="/error" />}{/* Navigates to a fallback route if an error occurred */}
         <Route path="*" element={<PageNotFound />} />{/* Renders the PageNotFound component for all other routes */}
       </Routes>
     </BrowserRouter>
