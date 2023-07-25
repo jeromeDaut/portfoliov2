@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from '../sectionTitle/SectionTitle';
-import { SiSwagger, SiJavascript, SiHtml5, SiCss3, SiSass, SiBootstrap, SiReact, SiRedux, SiGit, SiGithub, SiFigma } from 'react-icons/si';
+import { SiOpenai,SiSwagger, SiJavascript, SiHtml5, SiCss3, SiSass, SiBootstrap, SiReact, SiRedux, SiGit, SiGithub, SiFigma, SiLaragon } from 'react-icons/si';
 
 // Array of skill items
 const skillItems = [
@@ -15,6 +15,7 @@ const skillItems = [
   { id: 9, category: 'front', title: 'React', icon: SiReact, bg_color: 'linear-gradient(225.22deg,#93ffff -.09%,#59a5ff 100.01%)' },
   { id: 10, category: 'front', title: 'Redux', icon: SiRedux, bg_color: 'linear-gradient(225.22deg,#aae0ff -.01%,#5affce 100.08%)' },
   { id: 11, category: 'outils', title: 'Swagger', icon: SiSwagger, bg_color: 'linear-gradient(225deg,#81d875 .14%,#1a571c 99.86%)' },
+  { id: 12, category: 'outils', title: 'ChatGPT ', icon: SiOpenai , bg_color: 'linear-gradient(45deg,#16A180 .29%,#14d3a6 50.14%,#8efae1)' },
 ];
 
 const Skills = () => {
