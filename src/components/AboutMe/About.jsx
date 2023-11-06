@@ -2,7 +2,7 @@ import React from 'react';
 import portrait from '../../assets/images/portrait.webp';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import { FaRegFilePdf } from 'react-icons/fa';
-import pdf from '../../assets/images/CV-Jerome_Dautreme.pdf';
+import pdf from '../../assets/images/CV_Jérôme_Dautrême (2).pdf';
 
 
 const About = () => {
