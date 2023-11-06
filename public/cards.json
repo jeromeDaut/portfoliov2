@@ -167,5 +167,23 @@
         "redux-toolkit": "./images/Logos/Redux.webp"
       }
       
+    },
+    {
+      "id": 9,
+      "title": "Appli lancer de dés React",
+      "alt": "image projet lancer de dés",
+      "cover": "./images/CoverDesktop/knights.jpg",
+      "coverMobile":"./images/CoverDesktop/knights.jpg",
+      "paragraph":  "Réalisation d'une appli webmobile de lancer de dés pour le jeu de rôle Knight",
+      "techno":"REACT",
+      "links":{
+        "github":"https://github.com/jeromeDaut/Roll_dice_for_Knight-RPG",
+        "logoGithub":"./images/Logos/Github.webp",
+        "pages":"https://roll-dice-for-knight-rpg.vercel.app/",
+        "logoPages":"./images/Logos/link.webp"
+      },
+      "logo":{
+        "react": "./images/Logos/React.webp"
+      } 
     }
     ]
