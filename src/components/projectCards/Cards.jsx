@@ -43,7 +43,7 @@ const Cards = () => {
       <div className='container'>
         
           <article className='container__project'>
-            {cardsData.map(card => (
+            {[...cardsData].reverse().map(card => (
               
               <Figure 
               onClick={() => handleCardClick(card)} 
