@@ -83,7 +83,7 @@ const ModalP = (props) => {
                 {card.links.pages && (
                   <div>
                     <Link to={card.links.pages} target="_blank" rel="noopener noreferrer">
-                      <h4>Github Pages</h4>
+                      <h4>Aperçu</h4>
                       <img className='containerModal__links--logo' title='Github Pages' src={card.links.logoPages} alt='Pages' />
                     </Link>
                   </div>
